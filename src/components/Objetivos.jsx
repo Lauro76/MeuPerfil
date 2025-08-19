@@ -1,14 +1,14 @@
-function Habilidades(props) {
+function Objetivos(props) {
   return (
     <div style={{ padding: '20px', color: 'white' }}>
       <h1>{props.titulo}</h1>
-      <h2>{props.habilidade1}</h2>
-      <h2>{props.habilidade2}</h2>
-      <h2>{props.habilidade3}</h2>
+      <h2>{props.objetivo1}</h2>
+      <h2>{props.objetivo2}</h2>
+      <h2>{props.objetivo3}</h2>
       {props.foto && (
         <img
           src={props.foto}
-          alt="Habilidades"
+          alt="Objetivos"
           style={{ width: '200px', borderRadius: '10px' }}
         />
       )}
@@ -16,4 +16,4 @@ function Habilidades(props) {
   );
 }
 
-export default Habilidades;
+export default Objetivos;

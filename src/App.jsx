@@ -7,6 +7,7 @@ import Habilidades from './components/Habilidades.jsx';
 import Idiomas from './components/Idiomas.jsx';
 import Contatos from './components/Contatos.jsx';
 import RedesSociais from './components/RedesSociais.jsx';
+import Objetivos from './components/Objetivos.jsx';
 import fotoPessoal from './assets/minhafoto.jpeg';
 import fotoProgramar from './assets/programar.jpeg';
 import fotoFutebol from './assets/futebol.jpeg';
@@ -16,6 +17,7 @@ import fotoHabilidades from './assets/habilidades.jpeg';
 import fotoIdiomas from './assets/idiomas.jpg';
 import fotoContatos from './assets/contatos.png';
 import fotoRedes from './assets/Redes.jpg';
+import fotoObjetivos from './assets/Objetivos.jpg';
 import './App.css'
 
 function App() {
@@ -47,7 +49,7 @@ function App() {
         experiencia1="Estágio em Desenvolvimento Web"
         experiencia2="Projeto Pessoal SPA React"
         experiencia3="Contribuição em GitHub"
-        descricao="Desenvolvendo habilidades práticas em programação e projetos reais."
+        descricao="Desenvolvendo habilidades em programação e sustentabilidade."
         foto={fotoExperiencia}
      />
       <Projetos
@@ -58,8 +60,10 @@ function App() {
       />
       <Habilidades
         titulo="Minhas Habilidades"
-        listaHabilidades={['React', 'JavaScript', 'HTML', 'CSS', 'Git']}
-        foto={fotoHabilidades} 
+        habilidade1="JavaScript / React"
+        habilidade2="HTML / CSS / Tailwind"
+        habilidade3="Node.js / Express"
+        foto={fotoHabilidades}
       />
       <Idiomas
         titulo="Idiomas"
@@ -81,6 +85,13 @@ function App() {
         rede2="GitHub: github.com/lauro"
         rede3="Instagram: instagram.com/lauro"
         foto={fotoRedes}
+     />
+     <Objetivos
+       titulo="Meus Objetivos"
+       objetivo1="Concluir minha formação em Desenvolvimento de Sistemas"
+       objetivo2="Trabalhar com projetos de impacto positivo"
+       objetivo3="Evoluir constantemente no autoconhecimento e na carreira"
+       foto={fotoObjetivos}
      />
       
       </div>
